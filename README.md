@@ -1,4 +1,4 @@
-# 🏠 Land Registry Web Application — Spring Boot Backend
+# 🏠 Land Registry
 
 A production-ready backend system for managing land records, ownership verification, and secure ownership transfers. Built entirely using Spring Boot, this application leverages PostgreSQL and Hibernate (JPA) to deliver a scalable, secure, and maintainable architecture.
 
