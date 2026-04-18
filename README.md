@@ -79,21 +79,23 @@ Controller → Service → Repository → Database
 ---
 
 ## 🗃️ Project Structure
+```text
 backend/
 ├── src/main/java/com/landregistry/
-│ ├── config/ # App & Security configuration
-│ ├── controller/ # REST Controllers
-│ ├── dto/ # Data Transfer Objects
-│ ├── entity/ # JPA Entities
-│ ├── repository/ # Database access layer
-│ ├── security/ # JWT & Authentication
-│ ├── service/ # Business logic
-│ ├── exception/ # Global error handling
-│
+│   ├── config/        # App & security configuration
+│   ├── controller/    # REST controllers
+│   ├── dto/           # Data transfer objects
+│   ├── entity/        # JPA entities
+│   ├── repository/    # Database access layer
+│   ├── security/      # JWT & authentication
+│   ├── service/       # Business logic
+│   └── exception/     # Global error handling
 ├── src/main/resources/
-│ ├── application.yml
-│
+│   └── application.yml
 └── pom.xml
+```
+
+This layout is the intended backend structure for the application.
 
 
 ---
